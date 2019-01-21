@@ -11,3 +11,7 @@ install:
 build:
   project: build/ccaligner.sln
   verbosity: minimal
+artifacts:
+  - path: bin
+    name: all ccaligner
+    type: zip

@@ -12,6 +12,6 @@ build:
   project: build/ccaligner.sln
   verbosity: minimal
 artifacts:
-  - path: bin
+  - path: Build
     name: all ccaligner
     type: zip
